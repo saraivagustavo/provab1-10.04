@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: brown;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+header h3 {
+    display: inline;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+header h3:last-child {
+    border-right: none;
+}
+.imagem {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;   
+}
+.corpo {
+    display: flex;
+    flex: 1;
+    background-color: beige;
+}
+figcaption {
+    font-size: 14px;
+    background-color: brown;
+}
+.imagens {
+    clear: both;
+}
+.figuras {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+figcaption {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 221px;
+    padding: 5px;
+    margin-top: -10px;
+}
+footer {
+    background-color: brown;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
